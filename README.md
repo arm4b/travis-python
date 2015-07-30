@@ -1,5 +1,5 @@
 # Vagrant with Travis Python env
-Vagrantfile to build Travis environment with Python, RabbitMQ and MongoDB.
+Vagrantfile to build Travis environment with Python, PostgreSQL, RabbitMQ and MongoDB.
 
 Since [Travis-CI](https://travis-ci.org/) doesn't have remote SSH debug option, Vagrant image is useful for debugging and testing Travis builds.
 

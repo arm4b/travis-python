@@ -42,6 +42,7 @@ EOS
     chef.add_recipe 'python::pyenv'
     chef.add_recipe 'python::system'
     chef.add_recipe 'python::devshm'
+    chef.add_recipe 'postgresql'
     chef.add_recipe 'rabbitmq'
     chef.add_recipe 'mongodb'
     chef.add_recipe 'sweeper'
